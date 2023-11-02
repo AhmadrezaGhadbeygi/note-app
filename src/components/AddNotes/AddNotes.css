@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-add_notes {
+  position: relative;
+  width: 400px;
+}
+.icon-box {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: white;
+  background-color: #565656;
+  border: 2px solid;
+}
+.container--add__note {
+  /* height: 890px; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #252525;
+  align-items: center;
+}
+.container-icon {
+    width: 100%;
+padding: 2rem 1rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.input
+{
+    width: 80%;
+background-color: transparent;
+font-size: 1.2rem;
+padding: 0.3rem ;
+border: none;
+ outline: none;
+ color: white;
+ 
+}
